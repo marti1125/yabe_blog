@@ -106,7 +106,7 @@ public class BasicTest extends UnitTest {
         assertEquals(3, Comment.count());
         
         assertNotNull(User.connect("bob@gmail.com", "secret"));
-        assertNull(User.connect("jeff@gmail.com", "secret"));
+        assertNotNull(User.connect("jeff@gmail.com", "secret"));
         assertNull(User.connect("jeff@gmail.com", "badpassword"));
         assertNull(User.connect("tom@gmail.com", "secret"));
           

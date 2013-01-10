@@ -1,5 +1,5 @@
-# Test data
-
+## YAML Template.
+---
 User(bob):
     email:          bob@gmail.com
     password:       secret
@@ -64,4 +64,4 @@ Comment(c3):
     content:        >
                     This post is useless ?
     postedAt:       2009-04-05
-    post:           secondBobPost  
+    post:           secondBobPost

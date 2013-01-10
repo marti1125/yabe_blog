@@ -1,5 +1,5 @@
-10 ene 2013 06:54:04,223 INFO  ~ Starting /home/willy/yabe
-10 ene 2013 06:54:06,511 WARN  ~ You're running Play! in DEV mode
-10 ene 2013 06:54:06,936 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...
-10 ene 2013 07:12:09,249 INFO  ~ Connected to jdbc:h2:mem:play;MODE=MYSQL;LOCK_MODE=0
-10 ene 2013 07:12:11,865 INFO  ~ Application 'yabe' is now started !
+10 ene 2013 08:33:00,629 INFO  ~ Starting /home/willy/yabe
+10 ene 2013 08:33:01,656 WARN  ~ You're running Play! in DEV mode
+10 ene 2013 08:33:01,775 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...
+10 ene 2013 08:33:19,995 INFO  ~ Connected to jdbc:h2:mem:play;MODE=MYSQL;LOCK_MODE=0
+10 ene 2013 08:33:21,570 INFO  ~ Application 'yabe' is now started !
