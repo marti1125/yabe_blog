@@ -54,10 +54,9 @@ body {
     padding: 20px 30px 30px 20px;
     margin: 20px 0;
     color: #3C4313;
-    position: relative;
-    -webkit-border-radius: 16px;
-    -webkit-box-shadow: 0 2px 0 #93A045;
-    -moz-border-radius: 16px;
+    position: relative; 
+    border-radius: 16px 16px 16px 16px;
+    -webkit-border-radius: 16px 16px 16px 16px;
 }
 
 /** A little hacky to create arrows without images **/
@@ -96,8 +95,9 @@ body {
 #main {
     background: #314660;
     background: -webkit-gradient(linear, left top, left 30%, from(#314660), to(#364B66));
-    -webkit-border-radius: 16px;
-    -moz-border-radius: 16px;
+    border-radius: 16px 16px 16px 16px;
+    -webkit-border-radius: 16px 16px 16px 16px;
+    border-radius: 16px 16px 16px 16x;
     padding: 20px;
 }
 
@@ -134,8 +134,8 @@ body {
     background: #fff;
     padding: 10px;
     margin: 10px 0 50px 0;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
+    border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
     -webkit-box-shadow: 0 2px 0 #BBBBBB;
 }
 
@@ -236,8 +236,8 @@ h3 span {
     margin-bottom: 10px;
     margin-left: 100px;
     padding: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
+    border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
 }
 
 .comment .about {
@@ -250,8 +250,8 @@ h3 span {
 	border-right: 10px solid #E4EAFF;
 	border-left: 0;
 	position: absolute;
-	top: 4px;
-	left: -4px;
+	top: 9px;
+	left: -6px;
 }
 
 /** Form **/
