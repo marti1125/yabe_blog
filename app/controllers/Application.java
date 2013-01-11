@@ -29,7 +29,7 @@ public class Application extends Controller {
     
     public static void show(Long id) {
         Post post = Post.findById(id);
-        String ramdomID = Codec.UUID();
+        String randomID = Codec.UUID();
         render(post);
     }
     
@@ -54,6 +54,11 @@ public class Application extends Controller {
         String code = captcha.getText("#E4EAFD");
         Cache.set(id, code, "10mn");
         renderBinary(captcha);
+    }
+    
+    public static void listTagged(String tag){
+        List<Post> posts = Post.findTaggedWith(tag);
+        render(tag, posts);
     }
 
 }

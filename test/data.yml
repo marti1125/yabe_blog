@@ -36,7 +36,7 @@ Post(secondBobPost):
 Post(jeffPost):
     title:          The MVC application
     postedAt:       2009-06-06
-    author:         jeff
+    author:         jeff   
     content:        >
                     A Play! application follows the MVC architectural pattern as applied to the 
                     architecture of the Web.
@@ -64,4 +64,4 @@ Comment(c3):
     content:        >
                     This post is useless ?
     postedAt:       2009-04-05
-    post:           secondBobPost  
+    post:           secondBobPost
