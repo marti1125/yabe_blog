@@ -10,17 +10,26 @@ package models;
  */
 import java.util.*;
 import javax.persistence.*;
+import play.data.validation.*;
+import play.data.binding.*;
 import play.db.jpa.*;
 
 @Entity
 public class Post extends Model{
     
+    @Required
     public String title;
+    
+    @Required 
+    @As("yyyy-MM-dd")
     public Date postedAt;
     
     @Lob
+    @Required
+    @MaxSize(10000)
     public String content;
     
+    @Required
     @ManyToOne
     public User author;
     
