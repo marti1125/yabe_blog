@@ -1,5 +1,4 @@
 #{extends 'CRUD/layout.html' /}
-#{set title:messages.get('crud.show.title', type.modelName) /}
 #{set 'moreStyles'}
 <link rel="stylesheet" type="text/css" media="screen" href="@{'/public/stylesheets/tags.css'}" />
 #{/set}
@@ -9,7 +8,7 @@
     <h2 id="crudShowTitle">&{'crud.show.title', type.modelName}</h2>
 
     <div class="objectForm">
-        #{form action:@save(object._key()), enctype:'multipart/form-data'}
+        #{form action:@save(object.id), enctype:'multipart/form-data'}
         #{crud.form}
         #{crud.custom 'tags'}
         <label for="tags">
@@ -29,12 +28,8 @@
         </script>
         <div class="tags-list">
             #{list items:models.Tag.findAll(), as:'tag'}
-            <span id="${tag.id}" onclick="toggle(this)" 
-                  class="tag ${object.tags.contains(tag) ? 'selected' : ''}">
-                ${tag}
-            </span> 
-            <input id="h${tag.id}" type="hidden" name="${fieldName}" 
-                   value="${object.tags.contains(tag) ? tag.id : ''}" />
+            <span id="${tag.id}" onclick="toggle(this)" class="tag ${object.tags.contains(tag) ? 'selected' : ''}">${tag}</span> 
+            <input id="h${tag.id}" type="hidden" name="${fieldName}" value="${object.tags.contains(tag) ? tag.id : ''}" />
             #{/list}
         </div>
         #{/crud.custom}
@@ -46,7 +41,7 @@
         #{/form}
     </div>
 
-    #{form @delete(object._key())}
+    #{form @delete(object.id)}
     <p class="crudDelete">
         <input type="submit" value="&{'crud.delete', type.modelName}" />
     </p>
