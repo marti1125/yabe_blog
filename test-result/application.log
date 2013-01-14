@@ -6,3 +6,5 @@
 14 ene 2013 09:52:39,681 WARN  ~ Actually play.tmp is set to null. Set it to play.tmp=none
 14 ene 2013 09:52:39,692 WARN  ~ You're running Play! in DEV mode
 14 ene 2013 09:52:39,818 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...
+14 ene 2013 10:15:25,635 INFO  ~ Cobertura plugin: generating test coverage report
+14 ene 2013 10:15:27,652 INFO  ~ Test coverage report has been generated: file:/home/willy/yabe/test-result/code-coverage/index.html
