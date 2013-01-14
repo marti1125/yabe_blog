@@ -1,5 +1,8 @@
-10 ene 2013 23:58:18,071 INFO  ~ Starting /home/willy/yabe
-10 ene 2013 23:58:19,150 WARN  ~ You're running Play! in DEV mode
-10 ene 2013 23:58:19,275 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...
-10 ene 2013 23:58:25,628 INFO  ~ Connected to jdbc:h2:mem:play;MODE=MYSQL;LOCK_MODE=0
-10 ene 2013 23:58:27,695 INFO  ~ Application 'yabe' is now started !
+14 ene 2013 09:52:38,475 INFO  ~ Starting /home/willy/yabe
+14 ene 2013 09:52:38,484 WARN  ~ Declaring modules in application.conf is deprecated. Use dependencies.yml instead (module.secure)
+14 ene 2013 09:52:38,484 INFO  ~ Module secure is available (/home/willy/play-1.2.5/modules/secure)
+14 ene 2013 09:52:38,485 INFO  ~ Module cobertura is available (/home/willy/play-1.2.5/modules/cobertura-2.4)
+14 ene 2013 09:52:38,487 INFO  ~ Module crud is available (/home/willy/play-1.2.5/modules/crud)
+14 ene 2013 09:52:39,681 WARN  ~ Actually play.tmp is set to null. Set it to play.tmp=none
+14 ene 2013 09:52:39,692 WARN  ~ You're running Play! in DEV mode
+14 ene 2013 09:52:39,818 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...

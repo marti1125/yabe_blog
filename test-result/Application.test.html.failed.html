@@ -1,0 +1,405 @@
+<html>
+    <head>
+        <title>Test results for Application.test.html</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <style type="text/css">
+            body {
+                font-family: Arial, Sans;
+                margin: 0;
+                padding: 0;
+            }
+            table {
+                width: 100%;
+                border: none;
+            }
+            #header {
+                padding: 15px;
+                margin-bottom: 20px;
+            }
+            #results {
+                padding: 15px;
+            }
+            #header h1 {
+                margin-top: 0;
+            }
+            #header.passed {
+				background: #81CF5A !important;
+			}
+            .passed span {
+                background: #81CF5A !important;
+                padding: 3px 5px;
+            }
+			#header.failed {
+				background: #EF6868 !important;
+			}
+            .failed span {
+                background: #EF6868 !important;
+                padding: 3px 5px;
+            }
+            table .source {
+                margin-top: 10px;
+            }
+            table .source span {
+                color: #fff;
+                font-size: 85%;
+                padding: 1px 3px;
+                background: #666;
+            }
+            table .sourceLine {
+                border-left: 3px solid #c00;
+                padding: 4px 3px;
+                color: #000;
+                font-size: 85%;
+                margin-bottom: 10px;
+            }
+            .error {
+				color: #c00;
+			}
+            table td, table th {
+				padding: 5px;
+                border: none;
+			}
+            .status_passed {
+                background: #9BCF81 !important;
+            }
+            .status_failed {
+                background: #EF8686 !important;
+            }
+            .status_done {
+                background: #EFEFD1 !important;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div id="header" class="block failed">
+            <h1>
+                Application.test.html
+            </h1>
+            <p>
+                FAILED
+            </p>
+        </div>
+
+        <div id="results">
+            <div><table style="margin-bottom: 20px" border="0" cellpadding="1" cellspacing="1" width="100%">
+    <thead>
+        <tr class="title status_failed">
+            <th colspan="3" style="background: #111; color: #fff; padding: 5px">Check home page</th>
+        </tr>
+    </thead>
+    <tbody>
+      
+      
+            
+      
+      
+      
+            
+              <tr class="  status_done" style="cursor: pointer;">
+                <td width="33%">clearSession</td>
+                <td width="33%"></td>
+                <td></td>
+              </tr>
+            
+      
+      
+      
+            
+      
+      
+      
+        <tr>
+            <td colspan="3" style="font-style:italic; background: #e2e2e2">    // Open the home page</td>
+        </tr>
+      
+      
+      
+            
+              <tr class="  status_done" style="cursor: pointer;">
+                <td width="33%">open</td>
+                <td width="33%">/</td>
+                <td></td>
+              </tr>
+            
+      
+      
+      
+            
+      
+      
+      
+        <tr>
+            <td colspan="3" style="font-style:italic; background: #e2e2e2">    // Check that the front post is present</td>
+        </tr>
+      
+      
+      
+            
+              <tr class="  status_passed" style="cursor: pointer;">
+                <td width="33%">assertTextPresent</td>
+                <td width="33%">About the model layer</td>
+                <td></td>
+              </tr>
+            
+      
+      
+      
+            
+              <tr class="  status_passed" style="cursor: pointer;">
+                <td width="33%">assertTextPresent</td>
+                <td width="33%">by Bob</td>
+                <td></td>
+              </tr>
+            
+      
+      
+      
+            
+              <tr class="  status_failed" style="cursor: pointer;">
+                <td width="33%">assertTextPresent</td>
+                <td width="33%">2 comments*,*latest by Mike</td>
+                <td>false</td>
+              </tr>
+            
+      
+      
+      
+            
+              <tr class="" style="cursor: pointer;">
+                <td width="33%">assertTextPresent</td>
+                <td width="33%">It is the domain-specific representation</td>
+                <td></td>
+              </tr>
+            
+      
+      
+      
+            
+      
+      
+      
+        <tr>
+            <td colspan="3" style="font-style:italic; background: #e2e2e2">    // Check older posts</td>
+        </tr>
+      
+      
+      
+            
+              <tr class="" style="cursor: pointer;">
+                <td width="33%">assertTextPresent</td>
+                <td width="33%">The MVC application</td>
+                <td></td>
+              </tr>
+            
+      
+      
+      
+            
+              <tr class="" style="cursor: pointer;">
+                <td width="33%">assertTextPresent</td>
+                <td width="33%">Just a test of YABE</td>
+                <td></td>
+              </tr>
+            
+      
+      
+    </tbody>
+</table>
+
+
+
+
+
+<table style="margin-bottom: 20px" border="0" cellpadding="1" cellspacing="1" width="100%">
+    <thead>
+        <tr>
+            <th colspan="3" style="background: #111; color: #fff; padding: 5px">Test comments</th>
+        </tr>
+    </thead>
+    <tbody>
+      
+      
+            
+      
+      
+      
+            
+      
+      
+      
+        <tr>
+            <td colspan="3" style="font-style:italic; background: #e2e2e2">    // Click on 'The MVC application post'</td>
+        </tr>
+      
+      
+      
+            
+              <tr class="" style="cursor: pointer;">
+                <td width="33%">clickAndWait</td>
+                <td width="33%">link=The MVC application</td>
+                <td></td>
+              </tr>
+            
+      
+      
+      
+            
+              <tr class="" style="cursor: pointer;">
+                <td width="33%">assertTextPresent</td>
+                <td width="33%">The MVC application</td>
+                <td></td>
+              </tr>
+            
+      
+      
+      
+            
+              <tr class="" style="cursor: pointer;">
+                <td width="33%">assertTextPresent</td>
+                <td width="33%">no comments</td>
+                <td></td>
+              </tr>
+            
+      
+      
+      
+            
+      
+      
+      
+        <tr>
+            <td colspan="3" style="font-style:italic; background: #e2e2e2">    // Post a new comment</td>
+        </tr>
+      
+      
+      
+            
+              <tr class="" style="cursor: pointer;">
+                <td width="33%">type</td>
+                <td width="33%">content</td>
+                <td>Hello</td>
+              </tr>
+            
+      
+      
+      
+            
+              <tr class="" style="cursor: pointer;">
+                <td width="33%">clickAndWait</td>
+                <td width="33%">css=input[type=submit]</td>
+                <td></td>
+              </tr>
+            
+      
+      
+      
+            
+      
+      
+      
+        <tr>
+            <td colspan="3" style="font-style:italic; background: #e2e2e2">    // Should get an error</td>
+        </tr>
+      
+      
+      
+            
+              <tr class="" style="cursor: pointer;">
+                <td width="33%">assertTextPresent</td>
+                <td width="33%">no comments</td>
+                <td></td>
+              </tr>
+            
+      
+      
+      
+            
+              <tr class="" style="cursor: pointer;">
+                <td width="33%">assertTextPresent</td>
+                <td width="33%">Author is required</td>
+                <td></td>
+              </tr>
+            
+      
+      
+      
+            
+              <tr class="" style="cursor: pointer;">
+                <td width="33%">type</td>
+                <td width="33%">author</td>
+                <td>Me</td>
+              </tr>
+            
+      
+      
+      
+            
+              <tr class="" style="cursor: pointer;">
+                <td width="33%">type</td>
+                <td width="33%">code</td>
+                <td>XXXX</td>
+              </tr>
+            
+      
+      
+      
+            
+              <tr class="" style="cursor: pointer;">
+                <td width="33%">clickAndWait</td>
+                <td width="33%">css=input[type=submit]</td>
+                <td></td>
+              </tr>
+            
+      
+      
+      
+            
+      
+      
+      
+        <tr>
+            <td colspan="3" style="font-style:italic; background: #e2e2e2">    // Check</td>
+        </tr>
+      
+      
+      
+            
+              <tr class="" style="cursor: pointer;">
+                <td width="33%">assertTextPresent</td>
+                <td width="33%">Thanks for posting Me</td>
+                <td></td>
+              </tr>
+            
+      
+      
+      
+            
+              <tr class="" style="cursor: pointer;">
+                <td width="33%">assertTextPresent</td>
+                <td width="33%">1 comment</td>
+                <td></td>
+              </tr>
+            
+      
+      
+      
+            
+              <tr class="" style="cursor: pointer;">
+                <td width="33%">assertTextPresent</td>
+                <td width="33%">Hello</td>
+                <td></td>
+              </tr>
+            
+      
+      
+    </tbody>
+</table>
+
+
+</div>
+        </div>
+
+    </body>
+</html>
+
